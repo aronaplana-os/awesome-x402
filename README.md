@@ -107,9 +107,6 @@ Official and community implementations of the x402 protocol.
 - [x402-express](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) - Express.js middleware example.
 - [hive-rosetta](https://www.npmjs.com/package/hive-rosetta) ⭐ **Community** - Open EIP-3009 `transferWithAuthorization` signer. Zero ethers/web3 dependency, primitives-only EIP-712. Returns wire shape `{scheme: 'exact', network: 'eip155:8453', payload: {authorization, signature}}`. Same package name on PyPI. ([GitHub](https://github.com/srotzin/hive-rosetta))
 
-**Deno**
-- [x402-deno](https://github.com/aronaplana-os/x402-deno) - Drop-in x402 v2 middleware for any Deno or Deno Deploy fetch handler. Server-side canonical pricing (a client cannot alter the amount), Deno KV compare-and-set nonce reservation before inference to prevent cross-instance double-serving, fail-closed settlement, and cached replay of already-paid responses. Zero dependencies, MIT, smoke and integration tests included. ([GitHub](https://github.com/aronaplana-os/x402-deno))
-
 ### Python
 
 - [x402](https://pypi.org/project/x402/) ⭐ **Official** - Python SDK on PyPI.
@@ -477,6 +474,9 @@ Server-side integrations for accepting x402 payments.
 **Hono**
 - Browser wallet example - React + Hono full-stack.
 - [Azeth Provider](https://github.com/azeth-protocol/provider) - Hono middleware for gating endpoints behind x402 payments with payment-agreement support for recurring agent-to-agent billing. ([npm](https://www.npmjs.com/package/@azeth/provider))
+
+**Deno**
+- [x402-deno](https://github.com/aronaplana-os/x402-deno) - Drop-in x402 v2 middleware for any Deno or Deno Deploy fetch handler. Server-side canonical pricing (a client cannot alter the amount), Deno KV compare-and-set nonce reservation before inference to prevent cross-instance double-serving, fail-closed settlement, and cached replay of already-paid responses. Zero dependencies, MIT, smoke and integration tests included. ([GitHub](https://github.com/aronaplana-os/x402-deno))
 
 ### Python
 
